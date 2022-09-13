@@ -1,0 +1,12 @@
+function executeOmegle()
+{ 
+    let btn = document.querySelector('.disconnectbtn')
+    let messageBox =document.querySelector('.chatmsg')
+    let sendBtn = document.querySelector('.sendbtn')
+    btn.click()
+    messageBox.innerHTML="type your shit"
+
+    sendBtn.click()
+}
+
+setInterval(executeOmegle,5000)
